@@ -43,11 +43,11 @@ export default class sparkClick extends Component {
         <Nav
           selected={this.state.page}
           onTabChange={this._onTabChange}>
-            <Tab name="home"label="Home" />
-            <Tab name="heart"label="Favorite" />
-            <Tab name="cart"label="Cart" />
-            <Tab name="shirt"label="Custom" />
-            <Tab name="menu"label="Menu" />
+            <Tab name="home" label="Home" />
+            <Tab name="heart" label="Favorite" />
+            <Tab name="cart" label="Cart" />
+            <Tab name="shirt" label="Custom" />
+            <Tab name="menu" label="Menu" />
         </Nav>
       </View>
     );

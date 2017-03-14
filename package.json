@@ -1,6 +1,6 @@
 {
   "name": "react-native-simple-tab",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Native Simple Tab",
   "main": "dist/main.js",
   "scripts": {

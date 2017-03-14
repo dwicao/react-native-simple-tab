@@ -31,7 +31,7 @@ class Tab extends PureComponent {
             <TouchableOpacity
                 onPress={this._handleTabPress}
                 activeOpacity={this.props.pressOpacity}
-                style={styles.container}
+                style={[this.props.style, styles.container]}
             >
                     <CrossPlatformIcon
                         name={this.props.name}
@@ -39,7 +39,7 @@ class Tab extends PureComponent {
                         color={this._getColor()}
                     />
                     {!this.props.onlyIcon &&
-                        <Text style={{ color: this._getColor(), fontSize: this.props.fontSize }}>
+                        <Text style={[ this.props.fontStyle, { color: this._getColor(), fontSize: this.props.fontSize } ]}>
                             {this.props.label}
                         </Text>
                     }
@@ -51,6 +51,8 @@ class Tab extends PureComponent {
 Tab.propTypes = {
     name: PropTypes.string.isRequired,
     label: PropTypes.string,
+    style: PropTypes.object,
+    fontStyle: PropTypes.object,
 };
 
 const styles = StyleSheet.create({
