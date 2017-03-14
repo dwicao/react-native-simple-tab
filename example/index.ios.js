@@ -1,9 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
-
 import React, { Component } from 'react';
 import {
   AppRegistry,
@@ -12,8 +6,7 @@ import {
   View,
   ScrollView,
 } from 'react-native';
-import Nav from './src/components/Nav';
-import Tab from './src/components/Tab';
+import { Nav, Tab } from 'react-native-simple-tab';
 
 export default class sparkClick extends Component {
   constructor() {
@@ -79,7 +72,6 @@ const styles = StyleSheet.create({
     marginBottom: 5,
   },
   myText: {
-    marginTop: 120,
     textAlign: 'center',
   },
   myTabIndex: {

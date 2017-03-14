@@ -26,7 +26,7 @@
 	"dependencies": {
 		"react": "15.4.2",
 		"react-native": "0.40.0",
-		"react-native-cross-platform-icons": "^1.0.4",
+		"react-native-simple-tab": "^1.0.0",
     "react-native-vector-icons": "^4.0.0"
 	},
 	"devDependencies": {
