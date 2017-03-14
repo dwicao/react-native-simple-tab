@@ -6,6 +6,11 @@ A React Native Tab Navigation, made for simplicity, works on both Android and iO
 
 > iOS (Left) | Android (right)
 
+## Features
+* worked with any navigation on react-native
+* cross-platform icons by default
+* simple and clean UI
+
 ## Inspiration
 [Salestock Indonesia](https://play.google.com/store/apps/details?id=id.salestock.mobile)
 
@@ -107,6 +112,9 @@ const styles = StyleSheet.create({
 
 export default MyExample;
 ```
+
+## More Icons 
+[Check Out Here](http://ionicframework.com/docs/v2/ionicons/) and use it's name into Tab `name` props.
 
 ## Nav props
 
