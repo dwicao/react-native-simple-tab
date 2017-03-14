@@ -6,8 +6,11 @@ A React Native Tab Navigation, made for simplicity, works on both Android and iO
 
 > iOS (Left) | Android (right)
 
+![](https://raw.githubusercontent.com/dwicao/react-native-simple-tab/master/demo2.png)
+> `onlyIcon` props on Nav set to `true`
+
 ## Features
-* worked with any navigation on react-native
+* worked with (react-native-router-flux) or any kind of navigation solutions
 * cross-platform icons by default
 * simple and clean UI
 
