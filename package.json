@@ -1,0 +1,35 @@
+{
+  "name": "react-native-simple-tab",
+  "version": "1.0.0",
+  "description": "React Native Simple Tab",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+		"react-native-cross-platform-icons": "^1.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwicao/react-native-simple-tab.git.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "cross",
+    "platform",
+    "icons",
+    "simple",
+    "tab"
+  ],
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "author": "Lutfian Dwi Cahyono <lutfiandwica@gmail.com> (https://dwicao.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dwicao/react-native-simple-tab.git/issues"
+  },
+  "homepage": "https://github.com/dwicao/react-native-simple-tab.git#readme"
+}
