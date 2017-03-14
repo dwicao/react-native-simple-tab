@@ -47,6 +47,7 @@ class Nav extends PureComponent {
 }
 
 Nav.defaultProps = {
+    onTabChange: () => {},
     activeColor: 'black',
     unActiveColor: 'gray',
     backgroundColor: 'white',
@@ -59,6 +60,8 @@ Nav.defaultProps = {
 };
 
 Nav.propTypes = {
+    selected: PropTypes.number,
+    onTabChange: PropTypes.func,
     backgroundColor: PropTypes.string,
     borderTopColor: PropTypes.string,
     height: PropTypes.number,

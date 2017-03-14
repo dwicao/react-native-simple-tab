@@ -123,6 +123,8 @@ export default MyExample;
 
 | Props | Type | Default | Description |
 | --- | --- | --- | --- |
+| selected | number | - | used to determine what `tabIndex` that currently selected |
+| onTabChange | function | () => {} | event onTabChange with param `tabIndex` |
 | backgroundColor | string | 'white' | Nav background color |
 | borderTopColor | string | '#DDDDDD' | Nav border top color |
 | height | number | 42 | Nav height |
