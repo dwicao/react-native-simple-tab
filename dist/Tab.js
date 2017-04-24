@@ -51,8 +51,11 @@ class Tab extends PureComponent {
 Tab.propTypes = {
     name: PropTypes.string.isRequired,
     label: PropTypes.string,
-    style: PropTypes.object,
     fontStyle: PropTypes.object,
+    style: PropTypes.oneOfType([
+        PropTypes.object,
+        PropTypes.number
+    ]),
 };
 
 const styles = StyleSheet.create({

@@ -69,7 +69,10 @@ Nav.propTypes = {
     onlyIcon: PropTypes.bool,
     pressOpacity: PropTypes.number,
     fontStyle: PropTypes.object,
-    style: PropTypes.object,
+    style: PropTypes.oneOfType([
+        PropTypes.object,
+        PropTypes.number
+    ]),
 };
 
 export default Nav;
