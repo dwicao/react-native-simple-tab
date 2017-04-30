@@ -17,13 +17,6 @@ A React Native Tab Navigation, made for simplicity, works on both Android and iO
 ## Inspiration
 [Salestock Indonesia](https://play.google.com/store/apps/details?id=id.salestock.mobile)
 
-## Running Example
-* `git clone https://github.com/dwicao/react-native-simple-tab.git`
-* `cd example`
-* `npm install`
-* `react-native link`
-* `react-native run-android`
-
 ## Installation
 * `npm install --save react-native-simple-tab react-native-vector-icons`
 
