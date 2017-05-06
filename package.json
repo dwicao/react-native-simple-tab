@@ -1,6 +1,6 @@
 {
   "name": "react-native-simple-tab",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "React Native Simple Tab",
   "main": "src/main.js",
   "scripts": {
@@ -23,7 +23,7 @@
     "tab"
   ],
   "files": [
-    "dist",
+    "src",
     "README.md"
   ],
   "author": "Lutfian Dwi Cahyono <lutfiandwica@gmail.com> (https://dwicao.github.io/)",
